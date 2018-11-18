@@ -5,7 +5,7 @@
     "author": "Barbosik (https://github.com/Barbosik/MultiOgar)",
     "homepage": "https://github.com/Barbosik/MultiOgar",
     "license": "Apache-2.0",
-    "main": "src/index.js",
+    "main": "",
     "dependencies": {
         "quad-node": "^1.0.5",
         "vector2-node": "latest",
@@ -13,6 +13,7 @@
     },
     "devDependencies": {},
     "scripts": {
+      "start": "node src/server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
