@@ -64,7 +64,7 @@ function GameServer() {
     this.setBorder(10000, 10000);
 
     // Config
-    this.config = {
+  /*  this.config = {
         logVerbosity: 4,            // Console log level (0=NONE; 1=FATAL; 2=ERROR; 3=WARN; 4=INFO; 5=DEBUG)
         logFileVerbosity: 5,        // File log level
 
@@ -139,8 +139,8 @@ function GameServer() {
         tourneyAutoFillPlayers: 1,  // The timer for filling the server with bots will not count down unless there is this amount of real players
         tourneyLeaderboardToggleTime: 0, //Time for toggling the leaderboard, in seconds.If value set to 0, leaderboard will not toggle.
 
-    };
-
+    };*/
+this.config =require('../gameserver.json');
     this.ipBanList = [];
     this.minionTest = [];
     this.userList = [];
