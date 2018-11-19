@@ -140,7 +140,7 @@ function GameServer() {
         tourneyLeaderboardToggleTime: 0, //Time for toggling the leaderboard, in seconds.If value set to 0, leaderboard will not toggle.
 
     };*/
-this.config =require('../gameserver.json');
+this.config =require('./gameserver.json');
     this.ipBanList = [];
     this.minionTest = [];
     this.userList = [];
